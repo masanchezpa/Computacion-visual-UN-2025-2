@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Three.js – Examen Final</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #000; }
+    #ui {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    button {
+      padding: 8px 15px;
+      font-size: 14px;
+      border: none;
+      background: #ffffffcc;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="ui">
+    <button id="toggleCamera">Cambiar Cámara (P)</button>
+    <button id="reset">Reset Cámara</button>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
